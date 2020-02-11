@@ -2,7 +2,7 @@ import * as R from 'ramda';
 
 import {    FETCH_BOOKS_SUCCESS, 
             LOAD_MORE_BOOKS_SUCCESS,
-            SEARCH_BOOK } from 'actionTypes'
+            SEARCH_BOOK } from '../actionTypes'
 
 const initialState = {
     ids: [],

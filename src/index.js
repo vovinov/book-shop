@@ -7,10 +7,8 @@ import thunk from 'redux-thunk'
 import {routerMiddleware, ConnectedRouter} from 'connected-react-router'
 import {composeWithDevTools} from 'redux-devtools-extension'
 
-import createRootReducer from 'reducers'
-import routes from 'routes'
-
-import './index.css';
+import createRootReducer from './reducers'
+import routes from './routes'
 
 const history = createBrowserHistory()
 const middleware = [thunk, routerMiddleware(history)]
@@ -25,5 +23,5 @@ ReactDOM.render(
             {routes}
         </ConnectedRouter>
     </Provider>  
-    , document.getElementById('root'));
+    , document.querySelector('#root'));
 

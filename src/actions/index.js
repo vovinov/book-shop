@@ -15,14 +15,14 @@ import {
     FETCH_CATEGORIES_FAILURES,
     REMOVE_BOOK_FROM_BASKET,
     REMOVE_ALL_FROM_BASKET
-} from 'actionTypes'
+} from '../actionTypes'
 
 import {fetchBooks as fetchBooksApi,
         loadMoreBooks as loadMoreBooksApi,
         fetchBookById as fetchBookByIdApi,
-        fetchCategories as fetchCAtegoriesApi} from 'api'
+        fetchCategories as fetchCAtegoriesApi} from '../api'
 
-import {getRenderedBooksNumber} from 'selectors' 
+import {getRenderedBooksNumber} from '../selectors' 
 
 
 export const fetchBooks = () => async dispatch => {

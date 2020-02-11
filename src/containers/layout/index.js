@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Navigation from 'components/navigation'
+import Navigation from '../../components/navigation'
 
 import './layout.css'
 

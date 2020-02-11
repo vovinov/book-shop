@@ -1,11 +1,11 @@
 import { combineReducers } from "redux";
 import { connectRouter } from 'connected-react-router'
 
-import books from 'reducers/books'
-import booksPage from 'reducers/booksPage'
-import bookPage from 'reducers/bookPage'
-import basket from 'reducers/basket'
-import categories from 'reducers/categories'
+import books from './books'
+import booksPage from './booksPage'
+import bookPage from './bookPage'
+import basket from './basket'
+import categories from './categories'
 
 export default history => combineReducers({
     books,

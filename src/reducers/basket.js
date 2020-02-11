@@ -2,7 +2,7 @@ import * as R from 'ramda';
 
 import {    ADD_BOOK_TO_BASKET,
             REMOVE_BOOK_FROM_BASKET,
-            REMOVE_ALL_FROM_BASKET } from 'actionTypes'
+            REMOVE_ALL_FROM_BASKET } from '../actionTypes'
 
 const initialState = []
 

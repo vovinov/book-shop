@@ -4,7 +4,7 @@ import {
     FETCH_BOOKS_SUCCESS,
     LOAD_MORE_BOOKS_SUCCESS,
     FETCH_BOOK_BY_ID_SUCCESS
-} from 'actionTypes'
+} from '../actionTypes'
 
 const initialState = {
 

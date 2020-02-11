@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import * as R from 'ramda'
 
-import {fetchBookById, addBookToBasket} from 'actions'
-import {getBookById} from 'selectors'
-import Layout from 'containers/layout'
+import {fetchBookById, addBookToBasket} from '../../actions'
+import {getBookById} from '../../selectors'
+import Layout from '../layout'
 
 import './book.css'
 

@@ -1,5 +1,5 @@
-import books from 'api/mockBooks'
-import categories from 'api/mockCategories'
+import books from './mockBooks'
+import categories from './mockCategories'
 import * as R from 'ramda'
 
 export const fetchBooks = async () => {

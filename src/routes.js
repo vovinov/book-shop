@@ -1,9 +1,9 @@
 import React from 'react'
 import {Switch, Route} from 'react-router'
 
-import Books from 'containers/books'
-import Book from 'containers/book'
-import Basket from 'containers/basket'
+import Books from './containers/books'
+import Book from './containers/book'
+import Basket from './containers/basket'
 
 const routes = (
     <Switch>

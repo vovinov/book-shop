@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
-import { searchBook } from 'actions'
+import { searchBook } from '../../actions'
 
 
 class Search extends Component {

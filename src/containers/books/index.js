@@ -7,13 +7,12 @@ import {
         loadMoreBooks,
         addBookToBasket,
         fetchCategories
-    } from 'actions'
-import { getBooks } from 'selectors'
-import Layout from 'containers/layout'
-import Categories from 'components/categories'
+    } from '../../actions'
+import { getBooks } from '../../selectors'
+import Layout from '../layout'
+import Categories from '../../components/categories'
 
 import './books.css'
-
 
 class Books extends Component { 
 

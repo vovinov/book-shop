@@ -5,9 +5,9 @@ import {Link} from 'react-router-dom'
 
 import './basket.css'
 
-import {getBasketBooksWithCount, getTotalBasketPrice } from 'selectors'
+import {getBasketBooksWithCount, getTotalBasketPrice } from '../../selectors'
 
-import {removeBookFromBasket, removeAllFromBasket } from 'actions'
+import {removeBookFromBasket, removeAllFromBasket } from '../../actions'
 
 
 const Basket = ({books, total, removeBookFromBasket, removeAllFromBasket}) => {   

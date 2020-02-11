@@ -2,7 +2,7 @@ import * as R from 'ramda';
 
 import {
     FETCH_CATEGORIES_SUCCESS
-} from 'actionTypes'
+} from '../actionTypes'
 
 const initialState = {
 

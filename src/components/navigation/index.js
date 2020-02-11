@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import {Link} from 'react-router-dom'
 
-import Search from 'components/search'
+import Search from '../search'
 
 
 class Navigation extends Component {
